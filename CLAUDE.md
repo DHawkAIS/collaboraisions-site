@@ -80,8 +80,9 @@ style mockups) shown per band so a lead can see example content for
 their industry. Clickable thumbnails open a lightbox. Mapped:
 - Band A: HVAC repair promo, used-cars promo
 - Band B: hair salon promo, fashion retail "hot sale" promo
-- Band C: outdoor apparel brand post (only one example currently —
-  more creative/artist examples would round this out)
+- Band C: outdoor apparel brand promo, clothing designer portfolio drop,
+  musician album release, photographer portfolio spotlight, graphic
+  designer poster design, product/interior designer catalog spotlight
 
 ## Classification logic (in the system prompt)
 The model silently classifies band (A/B/C) and Foundation eligibility
@@ -109,8 +110,6 @@ badges — not a flat orange like the original draft.
   CORS-blocked calling its own backend.
 
 ## Open questions / likely next steps
-- Round out the Band C (creative/independent) example gallery — only
-  one image currently.
 - Decide whether Foundation tier pricing needs adjustment once real
   client feedback comes in.
 - Wire the real Calendly link in once the scheduling account is set up.
